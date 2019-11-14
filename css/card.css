@@ -1,0 +1,26 @@
+div.card{
+    background-color: #454545;
+    color: red;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+div.card img{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+div.card h2{
+    color: #fff;
+}
+div.card iframe{
+    margin: 0 auto;
+
+    height: 120px;
+    width: 400px;
+    frameborder: 0;
+    scrolling: yes;
+}

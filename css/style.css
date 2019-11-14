@@ -1,0 +1,39 @@
+
+body{
+    background: #454545;
+    background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(147,183,190,1) 50%, rgba(71,181,203,1) 98%);
+}
+section{
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 50px 10%;
+    min-height: 40vh;
+    text-align: center;
+    color:#fff;
+
+}
+
+div.body div.context{
+
+}
+
+div.icons a img{
+    width: 40px;
+}
+
+a.button{
+    padding: 10px 100px;
+    background-color: #fff;
+    color: red !important;
+    text-decoration: none !important;
+}
+iframe{
+    height: 102px;
+    width: 400px;
+    frameborder: 0;
+    scrolling: no;
+
+}
+.contactSec {
+    height: 300px;
+}
