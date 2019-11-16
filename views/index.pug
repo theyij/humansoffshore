@@ -1,24 +1,17 @@
 
 include header.pug
 
-div.body
-    div.navbar
-    section.welcome
-        div.context
-            h2 #{index.title}
-            p #{index.description}
-            p Thank you for joining Humans Offshore podcast!
-            a(  class='button' 
-                href='google.com') 分享經驗
-    section.listen
-        include episode.pug
-    section.about
-        include about.pug
-    section.contact
-        a(  class='button' 
-            href='https://theyijen.typeform.com/to/e0Z8Fl' 
-            target='_blank') 聯絡離島人
-            
-            
-            
+section.welcome.fullPage
+    div(class="img-responsive imgBackground img-fluid")
+        h2.title #{index.title}
+        p #{index.description}
+        a(class='button form' 
+          href='google.com') 分享經驗
+        p SNS links or listener feedback
+section.listen.fullPage
+    include listen.pug
+    a(  class='button' 
+        href='https://theyijen.typeform.com/to/e0Z8Fl' 
+        target='_blank') 聯絡離島人
+        
 include footer.pug

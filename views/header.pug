@@ -8,11 +8,27 @@ html
         style
             include ../css/style.css
             include ../css/card.css
+            include ../css/navbar.css
             include ../libs/bootstrap.min.css
         title 離島人 | Humans Offshore
     body
       div.header
-        h4 #{header.note}
+        nav.navbar.navbar-expand-md.navbar-dark.fixed-top
+            div.container
+                a(class="navbar-brand" href="#home")
+                    p 離島人｜Humans Offshore
+                button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+                    span(class="navbar-toggler-icon")
+                div(class="collapse navbar-collapse" id="navbarSupportedContent")
+                    ul(class="navbar-nav ml-md-auto")
+                        li(class="nav-item")
+                            a(class="nav-link" href="/eipsodes") Episodes 
+                        li(class="nav-item")
+                            a(class="nav-link" href="/event") Event
+                        li(class="nav-item")
+                            a(class="nav-link" href="about") About
+                        li(class="nav-item")
+                            a(class="nav-link" href="contact") Contact
         
       
       
