@@ -1,20 +1,17 @@
 html
     head
         meta("charset='utf-8', name='viewport', content='width=device-width, initial-scale=1.0', maximum-scale=1, user-scalable=0")
-        
-        
         script(src='../libs/bootstrap.min.js')
-        
         style
             include ../css/style.css
             include ../css/navbar.css
             include ../css/contact.css
             include ../css/card.css
             include ../css/button.css
-            include ../css/snsIcon.css
+            include ../css/footer.css
             include ../css/image.css
             include ../libs/bootstrap.min.css
-        title 離島人 | Humans Offshore
+        title #{header.title}
     body
       div.header
         nav.navbar.navbar-expand-md.navbar-dark.fixed-top
@@ -33,6 +30,15 @@ html
                             a(class="nav-link" href="about") About
                         li(class="nav-item")
                             a(class="nav-link" href="contact") Contact
-        
-      
-      
+            div
+                a(target="_blank"
+                href='http://bit.ly/humansoffshore_fb')
+                  img(class="snsIcon" src="https://img.icons8.com/officel/160/000000/facebook-new.png")
+                a(target="_blank"
+                href='http://bit.ly/humansoffshore_ig')
+                  img(class="snsIcon" src="https://img.icons8.com/officel/160/000000/instagram-new.png")
+                a(target="_blank"
+                href='http://bit.ly/humansoffshore_anchorfm')
+                  img(class="snsIcon" src="https://img.icons8.com/flat_round/64/000000/microphone--v2.png")
+          
+          
