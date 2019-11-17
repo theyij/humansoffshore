@@ -1,0 +1,7 @@
+.footer {
+    color: rgba(255,255,255,0.3);
+    margin: 5px auto;
+    right: 20px;
+    bottom: 0;
+    position: absolute;
+}

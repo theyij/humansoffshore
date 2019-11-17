@@ -5,28 +5,32 @@
     text-align: center;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.05) !important;
-
 }
-a.navbar-brand p{
+
+a.navbar-brand p {
     margin-bottom: 0;
 }
+
 a.nav-link {
     margin: 0 5px;
     width: 120px;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff !important;
-
 }
 
 .navbar:hover {
     transition: 0.4s;
     color: #454545 !important;
-
 }
 
 .nav-link:hover {
-    color: rgba(53,92,125,1) !important;
+    color: rgba(53, 92, 125, 1) !important;
     transition: 0.6s;
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+.snsIcon {
+    height: 30px;
+    margin: 0 5px;
 }
