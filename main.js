@@ -38,6 +38,30 @@ app.get('/episode', function (req, res) {
   });
 });
 
+app.get('/event', function (req, res) {
+
+  res.render('event', {
+    episode: episodes,
+    ep001: ep001,
+  });
+});
+
+app.get('/about', function (req, res) {
+
+  res.render('about', {
+    episode: episodes,
+    ep001: ep001,
+  });
+});
+
+app.get('/contact', function (req, res) {
+
+  res.render('contact', {
+    episode: episodes,
+    ep001: ep001,
+  });
+});
+
 
 
 
