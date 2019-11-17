@@ -19,8 +19,8 @@ app.get('/', function (req, res) {
 
   res.render('index', {
     header: headers,
+    footer: footers,
 	index: index_page,
-	footer: footers,
 	card_h: card_head,
 	card_p: card_paragraph,
 	workflow_1: workflow1,
@@ -33,32 +33,32 @@ app.get('/', function (req, res) {
 app.get('/episode', function (req, res) {
 
   res.render('episode', {
-    episode: episodes,
-    ep001: ep001,
+      header: headers,
+      footer: footers,
   });
 });
 
 app.get('/event', function (req, res) {
 
   res.render('event', {
-    episode: episodes,
-    ep001: ep001,
+      header: headers,
+      footer: footers,
   });
 });
 
 app.get('/about', function (req, res) {
 
   res.render('about', {
-    episode: episodes,
-    ep001: ep001,
+      header: headers,
+      footer: footers,
   });
 });
 
 app.get('/contact', function (req, res) {
 
   res.render('contact', {
-    episode: episodes,
-    ep001: ep001,
+      header: headers,
+      footer: footers,
   });
 });
 
