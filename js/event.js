@@ -1,6 +1,18 @@
 var events = {
-    title: "title",
-    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-    time: "Jan 9th, 2020",
-    location: "taipei",
+    title: "離島人名片交換取暖會",
+    agenda: "有興趣和離島人們近距離接觸的聽眾朋友做個交流。",
+    description: [
+        "18:00-18:30 開放入場",
+        "18:30-18:45 Opening",
+        "18:45-19:20 上半場",
+        "19:20-19:30 Break",
+        "19:30-20:15 下半場",
+        "20:15-20:30 Host Q&A",
+        "20:30-20:45 Audience Q&A",
+        "20:45-21:15 交流時間",
+
+    ],
+    time: "Jan 9th, 2020 星期四 | 18:00",
+    space: "Homeholic 只想在家共享空間",
+    location: "台灣台北市中正區漢口街一段82號2樓",
 };

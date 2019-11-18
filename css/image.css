@@ -6,8 +6,14 @@
     background-image: url('https://images.unsplash.com/photo-1565533137649-8ca980cef388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80');
 }
 
-.event {
-    background-image: url('https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+.event{
+    background-image: url('https://images.unsplash.com/photo-1557358080-bb703f224872?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
 }
 
 .contact {
