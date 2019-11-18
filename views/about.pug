@@ -1,8 +1,24 @@
 include header.pug
 
 section.about.fullPage
-    div(class="img-responsive imgBackground img-fluid")
-        h2.title this is ABOUT route
-        p SNS links or listener feedback
+    div.row
+        div.column.googleMap
+            img(src=about.image)
+        div.column
+            div.right
+                h2.title #{about.title}
+                h4 Host : #{about.name[0]} | #{about.name[2]}
+                h4 Role : #{about.role[0]} | #{about.role[1]}
+                h4 Experience : 
+                p #{about.description[0]}
+                p #{about.description[1]}
+                p #{about.description[2]}
+                p #{about.description[3]}
+                p #{about.description[4]}
+                p #{about.description[5]}
+                
+                h4 Current location : #{about.location}
+        
+            
 
     include footer.pug
