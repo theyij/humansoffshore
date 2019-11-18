@@ -5,7 +5,7 @@ body {
 
 .fullPage {
     margin: 0;
-    padding: 10px 20vh;
+    padding: 10px;
     min-height: 100vh;
     text-align: center;
     padding-top: 15vh;
@@ -26,6 +26,12 @@ body {
     font-weight: bold;
 }
 
+.sub {
+    font-size: 1.5em;
+    margin: 30px 0;
+    color: #fff;
+}
+
 p {
     font-size: 20;
     margin: 100px;
@@ -40,4 +46,30 @@ a.button {
     padding: 10px 100px;
     background-color: #fff;
     text-decoration: none !important;
+}
+/* event */
+hr{
+    width: 80%;
+}
+.event p{
+    text-align: left;
+    margin: 0 50px;
+    padding: 0;
+    width: 450;
+    font-size: 14px;
+}
+.event-intro{
+    padding: 0;
+}
+.event .title{
+    margin: 0;
+    margin-bottom: 50px;
+}
+.googleMap iframe{
+    width: 500px;
+    height: 340px;
+    frameborder: 0;
+    border:0;
+    right: 0;
+    /* allowfullscreen: ; */
 }
