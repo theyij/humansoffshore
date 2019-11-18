@@ -31,7 +31,14 @@ body {
     margin: 30px 0;
     color: #fff;
 }
-
+.sns{
+    padding: 5px;
+    background-color: rgba(255,255,255,0.7);
+    width:500px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top:100px;    
+}
 p {
     font-size: 20;
     margin: 100px;
@@ -41,35 +48,22 @@ p {
 div.icons a img {
     width: 40px;
 }
+.latest{
+    background-color: rgba(0,0,0,0.4);
+    max-width:90%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.latest img {
+    width: 300px;
+    height: auto;
+}
 
-a.button {
-    padding: 10px 100px;
-    background-color: #fff;
-    text-decoration: none !important;
-}
-/* event */
-hr{
-    width: 80%;
-}
-.event p{
-    text-align: left;
-    margin: 0 50px;
-    padding: 0;
-    width: 450;
-    font-size: 14px;
-}
-.event-intro{
-    padding: 0;
-}
-.event .title{
-    margin: 0;
-    margin-bottom: 50px;
-}
-.googleMap iframe{
-    width: 500px;
-    height: 340px;
+.episodes{
+    padding-top: 40px;
+    width: 100%;
     frameborder: 0;
     border:0;
-    right: 0;
-    /* allowfullscreen: ; */
+    scrolling: yes;
+    height: 100%;
 }

@@ -32,6 +32,7 @@ app.get('/episode', function (req, res) {
       header: headers,
       footer: footers,
       episode: episodes,
+      latest: latestEp,
   });
 });
 

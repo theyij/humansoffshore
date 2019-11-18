@@ -1,0 +1,53 @@
+hr {
+    width: 80%;
+}
+.right {
+    text-align: left;
+}
+.right h4{
+    font-size: 24px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #fff;
+    width: 70%;
+}
+.right p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 500;
+    font-size: 16px;
+}
+
+.episode .title,
+.about .title,
+.event .title {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.googleMap iframe {
+    width: 500px;
+    height: 340px;
+    frameborder: 0;
+    border: 0;
+    right: 0;
+    /* allowfullscreen: ; */
+}
+
+img {
+    height: 500px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

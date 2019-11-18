@@ -1,15 +1,15 @@
 div.card{
-    background-color: #454545;
-    color: red;
-    max-width: 500px;
-    text-align: center;
+    /* background-color: rgba(0,0,0,0.4); */
+    color: #454545;
+    max-width: 90%;
+    text-align: left;
     margin: 0 auto;
     padding: 30px;
 }
 
 div.card img{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     margin: 0 auto;
 }
 
