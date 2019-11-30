@@ -2,22 +2,22 @@ var abouts = {
     title: "About",
     name: [
         "Yang IJen",
-        "ヤン　イージェン",
         "楊依榛"
     ],
-    image: "https://images.unsplash.com/photo-1510133744874-096621a0e01e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://github.com/theyij.png?size=200.src",
     description: [
-        "2019 - Worked as a freelance front-end developer",
-        "2018 - Founded podcast show, Humans Offshore | 離島人",
-        "2017 - Work in Architecture design studio in Tokyo, Japan",
-        "2014 - Work & Travel to New York, United States",
-        "2009 - Family Exchange to Germany",
-        "2006 - Rotary Youth Exchange to Canada in",
+        "2019 :Freelance front-end developer",
+        "2018 :Founded podcast - Humans Offshore | 離島人",
+        "2017 - 2019 : Architecture design studio in Tokyo, Japan",
+        "2014 :Work & Travel to New York, United States",
+        "2009 - 2014 : Tamkang University, Bachelor of Architecture",
+        "2009 :Rotary Youth Exchange to Germany",
+        "2005 - 2009 : AHSNCCU",
+        "2006 - 2007 : Rotary Youth Exchange to Canada",
     ],
     role: [
         "Founder",
         "Producer",
         "Front-end Developer",
     ],
-    location: "Tokyo",
 };
