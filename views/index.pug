@@ -4,7 +4,8 @@ include header.pug
 section.welcome.fullPage
     div(class="img-responsive imgBackground img-fluid")
         h2.title #{index.title}
-        p #{index.description}
+        p #{index.description[0]} 
+        p #{index.description[1]}
     div.buttonSec
         a(class='mainButton form' 
           href='google.com') 分享經驗
