@@ -14,10 +14,7 @@ eval(fs.readFileSync('./js/episode.js')+'');
 eval(fs.readFileSync('./js/event.js')+'');
 eval(fs.readFileSync('./js/about.js')+'');
 
-
-
 app.get('/', function (req, res) {
-
   res.render('index', {
     header: headers,
     footer: footers,
@@ -25,19 +22,14 @@ app.get('/', function (req, res) {
   });
 });
 
-
 app.get('/episode', function (req, res) {
-
   res.render('episode', {
       header: headers,
       footer: footers,
-      episode: episodes,
-      latest: latestEp,
   });
 });
 
 app.get('/event', function (req, res) {
-
   res.render('event', {
       header: headers,
       footer: footers,
@@ -46,7 +38,6 @@ app.get('/event', function (req, res) {
 });
 
 app.get('/about', function (req, res) {
-
   res.render('about', {
       header: headers,
       footer: footers,
@@ -55,14 +46,11 @@ app.get('/about', function (req, res) {
 });
 
 app.get('/contact', function (req, res) {
-
   res.render('contact', {
       header: headers,
       footer: footers,
   });
 });
-
-
 
 
 // Tell app to listen (super important)
