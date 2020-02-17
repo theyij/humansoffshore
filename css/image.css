@@ -7,11 +7,11 @@
 }
 
 .event{
-    background-image: url('https://images.unsplash.com/photo-1557358080-bb703f224872?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
-
+    background-image: url('https://scontent.ffuk4-1.fna.fbcdn.net/v/t1.0-9/86471436_2506131269702848_5769992351166496768_o.jpg?_nc_cat=101&_nc_ohc=K3N2A6uIiYkAX-ocOs6&_nc_ht=scontent.ffuk4-1.fna&oh=6b97273757f42b9922a18f56102ab271&oe=5EC9CD72');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     /* filter: blur(8px); */
     /* -webkit-filter: blur(8px); */
 }

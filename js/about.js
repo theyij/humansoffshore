@@ -6,7 +6,7 @@ var abouts = {
     ],
     image: "https://github.com/theyij.png?size=200.src",
     description: [
-        "2019 :Front-end developer",
+        "2019 :Web Developer",
         "2018 :Founded podcast - Humans Offshore | 離島人",
         "2017 - 2019 : Architecture design studio in Tokyo, Japan",
         "2014 :Work & Travel to New York, United States",
