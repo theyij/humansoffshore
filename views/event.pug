@@ -5,25 +5,19 @@ section.event.fullPage
     h2.title #{event.title}
     div.row
         div.column.googleMap
-            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8073.91476816989!2d121.51927440236074!3d25.048123793070243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98fb62fcf41%3A0x361aed8bea36d063!2zSG9tZWhvbGljIOWPquaDs-WcqOWutuWFseS6q-epuumWkw!5e0!3m2!1szh-TW!2sjp!4v1574041783494!5m2!1szh-TW!2sjp")
+            //- img(src=event.img)
         div.column 
             div.right
-                h4 空間 | #{event.space} 
-                h4 地址 | #{event.location}
-                h4 時間 | #{event.time}
-                h4 Schedule 
-                    p | #{event.description[0]}
-                    p | #{event.description[1]}
-                    p | #{event.description[2]}
-                    p | #{event.description[3]}
-                    p | #{event.description[4]}
-                    p | #{event.description[5]}
-                    p | #{event.description[6]}
-                    p | #{event.description[7]}
+                 
+                
     div.buttonSec
+        p #{event.comment[0]} 
+        p #{event.comment[1]} 
+        p #{event.comment[2]}
+        br
         a(class='mainButton button form' 
         target="_blank"
-        href='http://bit.ly/humans_offshore_fbevent') ＦＢ報名取暖會
+        href='http://bit.ly/event_photo_humansoffshore') 更多活動花絮
     
         
     
